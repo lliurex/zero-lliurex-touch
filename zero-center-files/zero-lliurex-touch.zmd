@@ -1,0 +1,6 @@
+#!/bin/bash
+
+epi-gtk /usr/share/zero-lliurex-touch/lliurex-touch.epi
+
+exit 0
+

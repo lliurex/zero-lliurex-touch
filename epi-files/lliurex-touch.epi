@@ -1,0 +1,8 @@
+
+{
+	"type":"apt",
+	"pkg_list": [{"name":"lliurex-meta-minimal-touch","custom_name":"LliureX-Touch: Adapt LliureX usability to touch devices","custom_icon":"lliurex-touch.png"}],
+	"custom_icon_path":"/usr/share/zero-lliurex-touch/",
+	"script": {"name":"/usr/share/zero-lliurex-touch/lliurex-touch_script","remove":true},
+	"zomando":"zero-lliurex-touch"
+}
