@@ -1,0 +1,13 @@
+Source: zero-lliurex-touch
+Section: admin
+Priority: optional
+Maintainer: Equipo LliureX <lliurex@gva.es>
+Uploaders: Equipo LliureX <lliurex@gva.es>
+Build-Depends: llxsrchelper,debhelper (>= 10),zero-dev
+Standards-Version: 4.1.2
+
+Package: zero-lliurex-touch
+Architecture: amd64
+Depends: ${misc:Depends},epi-gtk,zero-center
+Description: LliureX-Touch Installer
+ Browser installer for lliurex-meta-minimal-touch
