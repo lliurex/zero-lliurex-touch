@@ -1,7 +1,7 @@
 
 {
 	"type":"apt",
-	"pkg_list": [{"name":"lliurex-touch-defaults","custom_name":"LliureX-Touch: Adapt LliureX usability to touch devices","custom_icon":"lliurex-touch.png"},{"name":"refind","custom_name":"Refind: Boot manager for UEFI and EFI based machines","custom_icon":"refind.png"}],
+	"pkg_list": [{"name":"lliurex-touch-defaults","custom_name":"LliureX-Touch: Adapt LliureX usability to touch devices","custom_icon":"lliurex-touch.png"}],
 	"custom_icon_path":"/usr/share/zero-lliurex-touch/",
 	"script": {"name":"/usr/share/zero-lliurex-touch/lliurex-touch_script","remove":true},
 	"zomando":"zero-lliurex-touch"
