@@ -2,7 +2,6 @@
 
 
 ACTION="$1"
-REFIND_BOOT_PATH="/boot/efi/EFI/refind"
 
 shift
 
@@ -23,10 +22,6 @@ case $ACTION in
 
 		if [ $countError -ne 0 ];then
 			exit 1
-		else
-			if [ -d "$REFIND_BOOT_PATH" ];then
-				rm -rf $REFIND_BOOT_PATH
-			fi
 		fi
 				
 	;;	
