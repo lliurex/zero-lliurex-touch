@@ -13,7 +13,7 @@ case $ACTION in
 		countError=0
 		for ix in $PACKAGE_LIST
 		do
-			apt-get remove -y $ix
+			apt purge -y $ix
 			TEST=$( dpkg-query -s $ix 2> /dev/null| grep Status | cut -d " " -f 4 )
 			if [ "$TEST" == 'installed' ];then
 				let countError=countError+1
