@@ -1,3 +1,10 @@
+zero-lliurex-touch (1.1) lliurex22; urgency=medium
+
+  * Upgraded banner
+  * Using purge at remove step, in order to get rid of etc stuff
+
+ -- Enrique Medina Gremaldos <quiqueiii@gmail.com>  Mon, 28 Nov 2022 14:37:02 +0100
+
 zero-lliurex-touch (1.0) focal; urgency=medium
 
   * Initial release
